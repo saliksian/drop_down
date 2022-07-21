@@ -16,7 +16,6 @@ function App() {
     <div>
       <Multiselect
         isObject={false}
-        // onKeyPressFn={function noRefCheck() {}}
         onRemove={(e) => handleRemove(e)}
         onSearch={function noRefCheck() {}}
         onSelect={(e) => handleSelect(e)}
