@@ -26,7 +26,7 @@ function App() {
       {optionSelected.map((value, index) => {
         return (
           <div key={index}>
-            <h1>{value}</h1>
+            <h4>{value}</h4>
             <input type="text"></input>
             <div>
               <Multiselect
